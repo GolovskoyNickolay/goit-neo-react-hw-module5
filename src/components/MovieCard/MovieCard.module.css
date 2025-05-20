@@ -1,0 +1,25 @@
+.card {
+  width: 198px;
+  border-radius: 8px;
+  text-decoration: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.poster {
+  height: 256px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.poster img {
+  transition: transform 250ms;
+}
+
+.poster:hover img {
+  transform: scale(1.05);
+}
+
+.card-subtitle {
+  color: var(--text-color-light);
+}

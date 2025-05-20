@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

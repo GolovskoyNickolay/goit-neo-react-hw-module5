@@ -1,0 +1,20 @@
+.header {
+    padding: 24px;
+}
+
+.navigation-item {
+    display: inline-block;
+}
+
+.navigation-item:not(:first-child) {
+    margin-left: 32px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link.active {
+    border-bottom: solid var(--color-1) 2px;
+}
